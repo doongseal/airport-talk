@@ -1,0 +1,22 @@
+.main-screen__gate {
+    border-top : 1px solid rgba(0,0,0,0.2);
+    padding : 15px 0;
+    
+     
+}
+
+.gate-header {
+    display: flex;
+    justify-content: space-between;
+    font-size: 20   px;
+}
+
+.gate-header h1 {
+    display: block;
+    margin-left: 10px;
+}
+
+.gate-header i {
+    margin-right: 10px;
+}
+

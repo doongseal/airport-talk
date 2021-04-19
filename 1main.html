@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>main</title>
+    <link rel="stylesheet" href="CSS/styles.css"/>
+</head>
+<body>
+    <div class="status-bar">
+        <div class="status-bar__column">
+            <span>19:37</span>
+            <i class="far fa-comment-dots"></i>
+        </div>
+        
+        <div class="status-bar__column">
+            <i class="fas fa-volume-mute"></i>
+
+            <i class="fas fa-wifi"></i>
+            <span>55%</span>
+            <i class="fas fa-battery-half"></i>
+
+        </div>
+    </div>
+
+    <div class="screen-header">
+        <div class="screen-header__title">
+            <h1 >ICN Airport Gate</h1>
+        </div>
+
+        <div class="screen-header__icons">
+            <span><i class="fas fa-search fa-lg"></i></span>
+            <span><i class="fas fa-flask"></i></span>
+            <span><i class="fas fa-dog"></i></span>
+            <span><a href="5setting.html"> <i class="fas fa-cog fa-lg"></i></a></span>
+        </div>
+
+
+    </div>
+    <main class="main-screen">
+
+
+    <div class="plane-component">
+        <div class="plane-component__column">
+            <img src="https://cdn-a.william-reed.com/var/wrbm_gb_food_pharma/storage/images/publications/feed/feednavigator.com/article/2019/04/01/enzymes-and-feed-efficiency-in-pigs/9320883-8-eng-GB/Enzymes-and-feed-efficiency-in-pigs_wrbm_large.jpg" class="plane-component__logo logo_big" />
+            <div class="plane-component__span">
+                <span class="plane-component__span-name span-name-big">DVM. Lim Jaewon</span>
+                <span class="plane-component__span-info span-info-big">Animal Quarantine Officer.</span>
+            </div>
+
+
+        </div>
+
+
+    </div>
+
+    <div class="main-screen__gate">
+        <div class="gate-header">
+        <h1>EAST GATE</h1>
+        <i class="fas fa-chevron-up fa-xs"></i>
+        </div>
+
+        <div class="plane-component__column">
+            <img src="https://m.flyasiana.com/C/mobile/image/main/img_appicon.png" class="plane-component__logo" />
+            <div class="plane-component__span">
+                <span class="plane-component__span-name">OZ350, CHINA/NANJING </span>
+                <span class="plane-component__span-info">Passenger: 320, 18:59  Arrived </span>
+            </div>
+
+
+
+
+        </div>
+
+        <div class="plane-component__column">
+            <img src="data:image/png;base64,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" class="plane-component__logo" />
+            <div class="plane-component__span">
+                <span class="plane-component__span-name">QW9901, CHINA/QINGDAO</span>
+                <span class="plane-component__span-info"> Passenger: 259, 19:35 Arrived</span>
+
+            </div>
+            
+            
+            
+
+
+
+        </div>
+
+
+    </div>
+
+    <div class="main-screen__gate">
+        <div class="gate-header">
+        <h1>WEST GATE</h1>
+        <i class="fas fa-chevron-up fa-xs"></i>
+        </div>
+
+        <div class="plane-component__column">
+            <img src="https://img1.daumcdn.net/thumb/R800x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2Fb1Dpka%2FbtqzAhPANBD%2FjX28Mko7B2pLukjVSQgNJk%2Fimg.jpg" class="plane-component__logo" />
+            <div class="plane-component__span">
+                <span class="plane-component__span-name">EK322, UAE/DUBAI</span>
+                <span class="plane-component__span-info"> Passenger: 320 , 22:35 Delayed </span>
+            </div>
+
+          
+
+
+        </div>
+
+        
+
+    </div>
+
+
+    </main>
+
+    <nav class="nav">
+        <ul class="nav__list">
+            <li class="nav__btn">
+                <a class="nav__link" href="1main.html">
+                    <i class="fas fa-door-open"></i>
+
+                </a>
+            
+            </li>
+            <li class="nav__btn">
+                <a class="nav__link" href="2plane.html">
+                    <i class="fas fa-plane"></i>
+
+                </a>
+            </li>
+            <li class="nav__btn">
+                <a class="nav__link" href="3lab.html">
+                    <i class="fas fa-search "></i>
+
+                </a>
+            </li>
+            <li class="nav__btn">
+                <a class="nav__link" href="4more.html">
+                    <i class="fas fa-ellipsis-h "></i>
+
+
+                </a>
+            
+            </li>
+        </ul>
+    </nav>
+
+    <div id="splash-screen">
+        <img  src="https://data.mafra.go.kr/img/mobile/logo_3.png" />
+
+
+    </div>
+
+
+    
+
+    <div id="no-mobile">
+        <span> Your screen is too big ㅠㅠ </span>
+    </div>
+
+
+
+    
+    <script src="https://kit.fontawesome.com/51a9bfdafd.js" crossorigin="anonymous">
+    </script>
+
+</body>
+</html>

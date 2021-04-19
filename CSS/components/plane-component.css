@@ -1,0 +1,50 @@
+.plane-component {
+    width: 100%;
+    margin : 25px 0px;
+
+}
+
+.plane-component__column {
+    display: flex;
+    align-items: center;
+    margin: 15px 0px;
+    justify-content: space-between;
+    
+    
+
+}
+
+
+
+.plane-component__logo {
+    width: 70px;
+    height: 70px;
+    border-radius: 5px;
+}
+
+.plane-component__span{
+    margin-left: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 70px;
+    
+}
+.plane-component__span-name {
+    font-size: 20px;
+}
+.plane-component__span-info {
+    opacity: 0.8;
+    font-size :15px;
+}
+
+
+.span-info-big,
+.span-name-big {
+    font-size: 25px;
+}
+.logo_big {
+    width: 80px;
+    height: 80px;
+    
+}

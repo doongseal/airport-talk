@@ -1,0 +1,43 @@
+.more-suggestion {
+    border-top : 1px solid rgba(0,0,0,0.2)
+
+}
+
+.more-suggestion h2 {
+    margin-top: 10px;
+    opacity: 0.6;
+}
+
+.more-suggestion__column {
+    display: flex;
+}
+
+.more-suggestion__app {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 13px;
+    height:100px;
+    width: 100px;
+    margin-right : 15px;
+}
+
+.more-suggestion__app span {
+    font-size: 12px;
+    text-align: center;
+    margin-top: 5px;
+}
+
+
+.more-suggestion__app img {
+    height: 90px;
+    width: 90px;
+    
+    
+}
+
+
+.fa-comment-alt {
+    color : black;
+}

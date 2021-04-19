@@ -1,0 +1,28 @@
+.lab-icon {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 25px;
+}
+
+
+.lab-icon__column {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 15px;
+    height: 90px;
+    width: 90px;
+    color : #335450;
+}
+
+.lab-icon__column i {
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+.lab-icon__column span {
+    font-size: 15px;
+    text-align: center;
+}

@@ -1,0 +1,20 @@
+.setting__div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+    
+}
+
+
+
+.setting__div__il {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+    font-size: 20px;
+    color: var(--quarantine);
+    border-bottom: 1px solid rgba(0,0,0,0.2)
+    
+}

@@ -1,0 +1,15 @@
+.alt-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 20px;
+    
+}
+
+.alt-header__column {
+    font-size: 25px;
+}
+
+.fa-angle-left {
+    font-size: 35px;
+}

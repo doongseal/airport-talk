@@ -1,0 +1,61 @@
+.nav {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding: 20px var(--horizontal-space);
+    box-sizing: border-box;
+    background-color : #e9e9e9;
+}
+
+
+.nav__list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+
+
+.nav__link {
+    color: var(--icon);
+    font-size: 30px;
+}
+
+
+@keyframes appearBtn {
+    from {
+     
+     opacity: 0;
+   
+    }
+   
+    to {
+      transform: none;
+      opacity: 1;
+   
+   
+    }
+   
+   }
+   
+   .nav__btn {
+     transform: translateY(50px);
+     opacity: 0;
+     animation: appearBtn 0.2s ease-in-out forwards;
+   }
+   
+   .nav__btn:nth-child(2) {
+     animation-delay:0.2s;
+   
+   }
+   
+   .nav__btn:nth-child(3) {
+     animation-delay:0.4s;
+   
+   }
+   
+   .nav__btn:last-child {
+     animation-delay:0.5s;
+   
+   }
