@@ -128,3 +128,81 @@
     font-weight: 600;
     animation : fadeIn2 0.5s linear;
   }
+
+
+  .reply {
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    bottom: 15px;
+    box-sizing: border-box;
+    height: 20px;
+    width: 100%;
+    padding : 10px 25px;
+    
+  }
+
+  .reply__column {
+    display: flex;
+    justify-content: space-between;
+
+  }
+  . 
+
+  .reply__column:first-child {
+    width:10%;
+
+  }
+
+  .reply__column:last-child {
+    width:90%;
+
+    position: relative;
+  }
+
+  .reply__column input {
+    width:100%;
+    padding:5px;
+    border-radius: 10px;
+  }
+
+  .reply__column:last-child i {
+    position: absolute;
+
+  }
+
+  .fa-grin-alt {
+    right: 27px;
+    bottom: 5px;
+  }
+
+  .fa-arrow-up {
+    right: 7px;
+    bottom: 5px;
+  }
+
+
+
+  .reply .reply__column:first-child,
+.reply .fa-grin-alt,
+ {
+  transition: opacity 0.3s ease-in-out;
+
+
+}
+
+.reply:focus-within .reply__column:first-child,
+.reply:focus-within .fa-grin-alt,
+ {
+  opacity:0;
+}
+
+.reply:focus-within  input {
+  width: 100vw;
+  transform: translateX(-13%) translateY(-80px);
+}
+
+.reply:focus-within {
+  transform: translateY(80px);
+}
