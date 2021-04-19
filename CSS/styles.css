@@ -102,3 +102,27 @@ a {
     animation-delay: 2s;
   
   }
+
+  
+@keyframes fadeIn {
+    from {
+      transform: translateX(-10px);
+      opacity:0 ;
+      
+    }
+  
+    to {
+      transform: none;
+      opacity:1 ;
+  
+    }
+  
+    
+  }
+  
+  .message-row {
+    width: 100%;
+    display: flex;
+    margin-bottom: 25px;
+    animation : fadeIn 0.5s linear;
+  }
